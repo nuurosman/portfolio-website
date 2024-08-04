@@ -1,0 +1,193 @@
+/* Google Fonts Link */
+@import url('https://fonts.googleapis.com/css?family=Inter:wght@100..900&family=Kalnia+Glaze:wght@100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rancho&effect=shadow-multiple, outline');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg,#d2001a,#243A74,#0CAEC5,#f48e21);
+    background-size: 300% 300%;
+    animation: color 5s ease-in-out infinite;
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-image: 100% 50%;
+    }
+    0%{
+        background-position: 0% 50%;
+    }
+}
+/* main-container */
+.main-container{
+    padding: 70px;
+}
+/* my-section */
+.my-section{
+    display: flex;
+}
+.my-title, h1{
+    font-size: 20px;
+    font-family: "Titan One", sans-serif;
+    color: white;
+    
+}
+.my-title p{
+    letter-spacing: 5px;
+    font-family: "Titan One", sans-serif;
+}
+.download-cv{
+    position: absolute;
+    right: 80px;
+    display: flex;
+}
+.download-cv span a{
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    text-shadow: 12px 10px 12px #04133c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.download-cv span a:link{
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px solid white;
+}
+.download-cv span a:hover{
+    color: #04133c;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 40px;
+    border: 3px solid #0CAEC5;
+}
+.download-cv span a:active{
+    color: #0CAEC5;
+}
+
+.download-cv .getintouch-btn{
+    margin-left: 40px;
+    padding: 10px 20px 10px 20px;
+    max-width: 500px;
+    border-style: none;
+    border-radius: 40px;
+    color: #243A74;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: 3px solid #0CAEC5;
+    font-size: 15px;
+}
+.getintouch-btn:hover{
+    cursor: pointer;
+    background-color:#0CAEC5 ;
+    color: white;
+}
+.getintouch-btn:active{
+    background-color: #243A74;
+    border-style: none;
+    outline: 3px solid white;
+    
+}
+/* About me */
+
+/* .home-container::after{
+   content: "";
+   clear: both;
+   display: table;
+
+} */
+ .home-container{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+    position: relative;
+    top: 80px;
+ }
+
+/* Nuur image */
+.image1 img{
+    width: 400px;
+    height: 400;
+    position: fixed;
+    left: 350px;
+}
+.image1{
+  width: 50%;
+}
+/* header */
+#header, h3{
+    color: white;
+    font-size: 30px;
+
+}
+/* header */
+#header,hr{
+    width: 200px;
+    margin-top: 10px;
+}
+#header{
+    width: 50%;
+    padding: 15px;
+}
+#header, ul{
+    list-style: none;
+}
+#header, ul li a{
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 45px;
+    color: white;
+}
+.about-me{
+    width: 55%;
+}
+.about_line{
+    display: flex;
+}
+.about_line .line{
+    width: 70%;
+    height: 2px ;
+    background-color:#0CAEC5;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.info h1{
+    line-height: 40px;
+    font-size:30px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+
+}
+.info p{
+  
+    font-size:20px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 40px;
+    color: rgb(188, 188, 188);
+   
+}
+.more a button{
+    margin-top: 34px;
+    background-color: #0CAEC5;
+    padding: 15px 50px 15px 50px;
+    border-radius: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    color: white;
+}
+.more a button:link,.more a button:visited{
+    background-color: #0CAEC5;
+}
+.more a button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #04133c;
+    border: 3px solid #0CAEC5;
+}
+
